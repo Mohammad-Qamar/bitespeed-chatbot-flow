@@ -1,0 +1,14 @@
+# Node & package files
+node_modules/
+package-lock.json
+
+# Environment
+.env
+
+# Build output
+dist/
+build/
+
+# OS/IDE
+.DS_Store
+.vscode/

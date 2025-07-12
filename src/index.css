@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* index.css */
+
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body style */
+body {
+    font-family: sans-serif;
+    background-color: #f9fafb;
+    color: #111827;
+}
+
+/* React Flow customizations (optional) */
+.react-flow__node {
+    transition: transform 0.2s ease-in-out;
+}
+
+.react-flow__node:hover {
+    transform: scale(1.02);
+}
