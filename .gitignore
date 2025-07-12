@@ -1,0 +1,15 @@
+# Ignore node dependencies
+node_modules/
+package-lock.json
+
+# Ignore build and dist outputs
+build/
+dist/
+
+# Ignore sensitive environment files
+.env
+
+# Ignore system/IDE-specific files
+.DS_Store
+.vscode/
+my-react-flow-app/
