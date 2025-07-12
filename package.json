@@ -1,7 +1,9 @@
 {
+ 
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+   
   },
   "dependencies": {
     "@xyflow/react": "^12.8.2",
@@ -24,6 +26,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.21",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.5.6",
     "tailwindcss": "^3.4.1"
   }

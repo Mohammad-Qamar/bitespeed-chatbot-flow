@@ -1,14 +1,15 @@
-# Node & package files
+# Ignore node dependencies
 node_modules/
 package-lock.json
 
-# Environment
+# Ignore build and dist outputs
+build/
+dist/
+
+# Ignore sensitive environment files
 .env
 
-# Build output
-dist/
-build/
-
-# OS/IDE
+# Ignore system/IDE-specific files
 .DS_Store
 .vscode/
+my-react-flow-app/
